@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar starts here  -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+        <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-list">
+          <a href="register.html" class="nav-link">Register</a>
+        </li>
+        <li class="nav-list">
+          <a href="login.html" class="nav-link">Login</a>
+        </li>
+        <li class="nav-list">
+          <a href="index.html" class="nav-link">Logout</a>
+        </li>
+        <li class="nav-list">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-list">
+          <a href="profile.html" class="nav-link"
+            ><img
+              class="profile-icon"
+              src="images/hannan_original.jpg"
+              alt="profile-icon"
+          /></a>
+        </li>
+      </ul>
+      <ul class="nav-lower flex-space-around">
+        <li class="nav-list">
+          <a class="nav-brand nav-link" href="index.html">Hannan Express</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="cart.html"
+            ><span><i class="fa-solid fa-cart-shopping"></i></span>Cart 2
+            products -$125$</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar ends here  -->
+    <main class="flex-center">
+      <div class="main-content">
+        <section class="product-details flex-center">
+          <div class="product-details-left flex-center">
+            <img src="images/product1.jpg" alt="" />
+          </div>
+          <div class="product-details-right">
+            <h3 class="product-Name">Sunglass</h3>
+            <p>
+              <span class="dot green"></span>
+              <span class="dot black"></span>
+              <span class="dot red"></span>
+            </p>
+            <p class="product-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+              fugit dignissimos aperiam sint error accusamus iste ipsa totam
+              facere voluptate laudantium perspiciatis vero quaerat illum nulla
+              sequi, natus assumenda ab earum possimus maiores asperiores
+              molestiae.
+            </p>
+            <p class="product-description">
+              . Atque, commodi nam deserunt neque quo aspernatur ad placeat
+              molestiae rerum voluptatem, id quam illo? Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Quaerat excepturi obcaecati
+              facere quod fuga hic, unde labore. Accusantium, assumenda? Dolor
+              maiores optio excepturi animi repudiandae!
+            </p>
+            <h4 class="product-price">Price: 110$</h4>
+            <p class="product-rating">Rating:4.7/5</p>
+            <button class="btn product-btn">Add to Cart</button>
+
+            <a href="index.html#products"
+              ><button class="btn product-btn">Back To shopping</button></a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Footer satrts here  -->
+    <footer class="flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Subscribe o newsletter:</label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          class="footer-input"
+          placeholder="Your Email Address"
+        />
+        <button class="btn btn-subscribe">Subscribe</button>
+      </div>
+      <div>
+        <p>&copy; Copyright 2023 Hannan Express: All right reserved</p>
+      </div>
+    </footer>
+
+    <!-- Footer Ends here  -->
+    <script src="script/index.js"></script>
+  </body>
+</html>
